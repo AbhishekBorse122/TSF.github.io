@@ -1,0 +1,128 @@
+/* Navigation Bar */
+body{
+    background:linear-gradient(to bottom,rgb(252 252 252 / 93%) ,rgb(129 129 129 / 95%));
+}
+.container-fluid{
+    padding-right:0px;
+    padding-left:0px ;
+}
+#mynav{
+    border: 1px solid white; 
+    border-radius:8px;
+    background-color:rgba(0, 0, 0, 0.733); 
+    opacity: 0.99;
+}
+.link{
+    color: white;
+    margin-right:45px ;
+}
+#NGO{
+    text-shadow: 2px 1px 10px #fff;
+}
+#logo{
+    margin:0px 10px ;
+    width:35px;
+    height: 35px;
+    border-radius: 20px;
+}
+#visible{
+   border:2px solid white ;
+}
+span{
+    color: white;
+    font-weight: bold;
+}
+li a:hover{
+    color:black !important;
+    border-radius:4px ;
+    background-color:#fad11d;
+}
+.active{
+    color:black !important;
+    border-radius:3px ;
+    background-color:#fad11d;
+}
+/* title */
+#title{
+    background-image:linear-gradient(to right,rgb(2 2 2 / 82%) ,rgb(105 105 105 / 52%)), url(./Image/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px ;
+    color: white;
+    padding:120px 85px;
+}
+h2{
+    margin-bottom: 25px;
+}
+/* donation */
+#donation{  
+ margin-top: 50px;   
+ margin-bottom: 70px;
+}
+#info{
+ color: #f4a950;   
+ border: 2px solid black;  
+ border-radius: 9px; 
+ background-color:  #161b21;
+ padding: 17px 31px;
+}
+/* heading */
+#heading{
+    background:linear-gradient(to right,rgb(76 76 76 / 82%) ,rgb(252 250 250 / 52%));
+    color:black;
+    padding: 3px 0px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* head */
+#head{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 60px;
+}
+#donate{
+    border:3px solid black;
+    border-radius: 5px;
+    animation-name: examples;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+/* footer */
+footer{
+    font-family: 'Baloo Bhai 2', cursive;
+    background:#272823;
+    color:white;
+    text-align: center;
+    padding:10px 10px;
+    width: 100%;
+}
+/* Utility Classes */
+.wellfleet{
+font-family: 'Wellfleet',cursive !important;
+}
+.quantico{
+    font-family: 'Quantico',cursive !important;
+}
+.electrolize{
+    font-family: 'Electrolize',cursive !important;
+}
+.baloo{
+    font-family: 'Baloo Bhai 2',cursive !important;
+}
+.text{
+ word-spacing: 1px;
+ line-height:3px;
+}
+.img{
+  height: 150px;
+  width: 150px;  
+}
+.center{
+    text-align: center;
+}
+/* Animation */
+@keyframes examples{
+    from {border:5px solid black;}
+     to {border:5px solid white;}
+}
+    
